@@ -3,7 +3,7 @@ import { Slot } from '@radix-ui/react-slot'
 import { ReactNode } from 'react';
 
 export interface HeadingProps {
-    size?: 'sm' | 'md' | 'lg';
+    size?: 'sm' | 'md' | 'l';
     children: ReactNode;
     asChild?: boolean; 
 }
